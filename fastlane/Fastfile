@@ -47,5 +47,7 @@ platform :android do
     capture_android_screenshots
     upload_to_play_store
   end
-  
+  lane :example do
+    puts("this is my first 🚀 lane")
+  end  
 end
